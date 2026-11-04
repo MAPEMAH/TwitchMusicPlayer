@@ -1,0 +1,1 @@
+(function(){const current=document.documentElement.lang||"en";document.querySelectorAll("[data-lang-link]").forEach(function(link){if(link.dataset.langLink===current){link.classList.add("active");link.setAttribute("aria-current","page")}});})();
